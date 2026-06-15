@@ -1,0 +1,51 @@
+{
+  "_schema": "sector -> list of {text, status: pending|fired|missed, fired_date, notes}",
+  "PCB": [
+    {"text": "GB300/Rubin放量", "status": "pending", "fired_date": null, "notes": ""},
+    {"text": "26Q3 AI订单验证", "status": "pending", "fired_date": null, "notes": ""}
+  ],
+  "CCL": [
+    {"text": "覆铜板涨价", "status": "pending", "fired_date": null, "notes": ""},
+    {"text": "原材料成本传导", "status": "pending", "fired_date": null, "notes": ""}
+  ],
+  "算力租赁": [
+    {"text": "AI资本开支", "status": "pending", "fired_date": null, "notes": ""},
+    {"text": "液冷订单", "status": "pending", "fired_date": null, "notes": ""},
+    {"text": "利用率拐点", "status": "pending", "fired_date": null, "notes": ""}
+  ],
+  "铜箔": [
+    {"text": "铜价", "status": "pending", "fired_date": null, "notes": ""},
+    {"text": "AI PCB需求", "status": "pending", "fired_date": null, "notes": ""},
+    {"text": "扩产进度", "status": "pending", "fired_date": null, "notes": ""}
+  ],
+  "GPU": [
+    {"text": "国产算力招标", "status": "pending", "fired_date": null, "notes": ""},
+    {"text": "季度业绩超预期", "status": "pending", "fired_date": null, "notes": ""}
+  ],
+  "储能+SST": [
+    {"text": "欧洲储能需求", "status": "pending", "fired_date": null, "notes": ""},
+    {"text": "毛利率改善", "status": "pending", "fired_date": null, "notes": ""}
+  ],
+  "硅片": [
+    {"text": "硅料价格", "status": "pending", "fired_date": null, "notes": ""},
+    {"text": "行业减产", "status": "pending", "fired_date": null, "notes": ""},
+    {"text": "需求回暖", "status": "pending", "fired_date": null, "notes": ""}
+  ],
+  "AI电源": [
+    {"text": "英伟达平台升级", "status": "pending", "fired_date": null, "notes": ""},
+    {"text": "800V电源渗透", "status": "pending", "fired_date": null, "notes": ""}
+  ],
+  "燃机": [
+    {"text": "海外大单", "status": "pending", "fired_date": null, "notes": ""},
+    {"text": "中东项目", "status": "pending", "fired_date": null, "notes": ""},
+    {"text": "燃机排产", "status": "pending", "fired_date": null, "notes": ""}
+  ],
+  "机器人": [
+    {"text": "Tesla Optimus", "status": "pending", "fired_date": null, "notes": ""},
+    {"text": "国内机器人量产", "status": "pending", "fired_date": null, "notes": ""}
+  ],
+  "新能源材料": [
+    {"text": "电解液价格", "status": "pending", "fired_date": null, "notes": ""},
+    {"text": "AI材料认证", "status": "pending", "fired_date": null, "notes": ""}
+  ]
+}
