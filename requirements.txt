@@ -7,3 +7,5 @@ tabulate>=0.9
 beautifulsoup4>=4.12
 lxml>=5.0
 py-mini-racer>=0.6
+feedparser>=6.0
+requests>=2.31

@@ -1,0 +1,29 @@
+name: Daily AI News Digest
+
+on:
+  schedule:
+    # 每天北京时间 07:30 发送 (UTC 23:30 前一天)
+    - cron: "30 23 * * *"
+  workflow_dispatch:  # 允许手动触发测试
+
+jobs:
+  send-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install feedparser requests
+
+      - name: Send AI digest email
+        env:
+          GMAIL_SENDER: ${{ secrets.GMAIL_SENDER }}
+          GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+        run: python scripts/ai_news_digest.py
