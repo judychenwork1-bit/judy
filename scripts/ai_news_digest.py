@@ -252,7 +252,7 @@ def send_email(html: str, plain: str, subject: str, sender: str, password: str, 
 def main():
     sender = os.environ.get("GMAIL_SENDER", "")
     password = os.environ.get("GMAIL_PASSWORD", "")
-    recipient = os.environ.get("RECIPIENT_EMAIL", "judychenwork1@gmail.com")
+    recipient = os.environ.get("RECIPIENT_EMAIL", "Judy.chen@morganstanley.com.cn")
 
     if not sender or not password:
         print("ERROR: Set GMAIL_SENDER and GMAIL_PASSWORD environment variables.", file=sys.stderr)
